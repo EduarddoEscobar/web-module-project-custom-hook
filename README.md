@@ -23,26 +23,26 @@ In this project you'll take this crypto currency tracker app and build two custo
 
 ### Task 2: Project Requirements
 #### Build a useDarkMode hook
-* [ ] Create a new folder called `hooks.`
-* [ ] Create a file called `useDarkMode.js`.
-* [ ] Build a hook that ONLY setups a boolean state value. This value governs if dark mode is on or off.
-* [ ] Return the slice of state created and the state modification function.
-* [ ] Replace the darkMode state definition with useDarkMode in App.js.
+* [x] Create a new folder called `hooks.`
+* [x] Create a file called `useDarkMode.js`.
+* [x] Build a hook that ONLY setups a boolean state value. This value governs if dark mode is on or off.
+* [x] Return the slice of state created and the state modification function.
+* [x] Replace the darkMode state definition with useDarkMode in App.js.
 
 #### Build a useLocalStorage hook
-* [ ] Create a file called `useLocalStorage.js`.
-* [ ] Build a hook takes in a key value and an initialValue.
-* [ ] Use the code from GP to build the the hook.
+* [x] Create a file called `useLocalStorage.js`.
+* [x] Build a hook takes in a key value and an initialValue.
+* [x] Use the code from GP to build the the hook.
 
 #### Compose useLocalStorage around useDarkMode
-* [ ] Import useLocalStorage into the useDarkMode hook.
-* [ ] Confirm that when clicking the dark mode switch on the ui that the correct value is saved to localStorage.
-* [ ] Confirm that dark mode persists when reloading the app.
+* [x] Import useLocalStorage into the useDarkMode hook.
+* [x] Confirm that when clicking the dark mode switch on the ui that the correct value is saved to localStorage.
+* [x] Confirm that dark mode persists when reloading the app.
 
 
 
 ## Submission Format
-- [ ] If this is your first time connecting a submission, authorize your github account within the codegrade assignment.
-- [ ] Connect your fork to Codegrade using the "Connect Git" button.
-- [ ] Find your newly created fork from the list and push your work to main.
-- [ ] Check this video for details: www.youtube.com/watch?v=fC2BO7dI6IQ
+- [x] If this is your first time connecting a submission, authorize your github account within the codegrade assignment.
+- [x] Connect your fork to Codegrade using the "Connect Git" button.
+- [x] Find your newly created fork from the list and push your work to main.
+- [x] Check this video for details: www.youtube.com/watch?v=fC2BO7dI6IQ
